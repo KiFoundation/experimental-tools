@@ -1,0 +1,44 @@
+{
+  "configs": [
+    {
+      "name": "config1",
+      "id": "c1",
+      "data": {
+        "total_supply": 1,
+        "vesting_for_investors": 1,
+        "vesting_for_team": 1,
+        "vesting_scheme": "sec_lin",
+        "simulation_rounds": 1,
+        "epochs": [
+          {
+            "name": "epoch1",
+            "supply_share_in_circulation": 1,
+            "wallet": {
+              "wallet_num": 1,
+              "investor_wallets_num": 1,
+              "investor_share": 1,
+              "whale_wallet_num": 1,
+              "whale_share": 1,
+              "investor_whales": 1
+            },
+            "validation": {
+              "validator_pool_size": 1,
+              "round_validator_list_size": 1
+            },
+            "reputation": {
+              "stake_weights": "",
+              "eligibility_thresholds": "",
+              "eligible_pool_size": 1
+            },
+            "collusion": {
+              "colluding_ghettos_size": "",
+              "colluding_ghettos_share": 1
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
+
+
